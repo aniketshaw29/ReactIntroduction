@@ -1,0 +1,30 @@
+Global Package:
+
+npm install -g cowsay
+
+---------------------------------------------------
+
+Check all global packages:
+
+npm list -g --depth=0
+
+---------------------------------------------------
+
+Unistall from global:
+
+npm uninstall -g cowsay
+
+---------------------------------------------------
+
+install as a project dependency:
+
+npm install cowsay
+
+---------------------------------------------------
+
+install as the packages in the packages.json dependency:
+
+npm install
+
+---------------------------------------------------
+

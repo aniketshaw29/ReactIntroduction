@@ -1,0 +1,19 @@
+{
+    "name": "mypractice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "namev.js",
+    "scripts": {
+        "hello": "echo hello aniket sir",
+        "format": "prettier --write ."
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cowsay": "^1.5.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.19.0",
+        "prettier": "2.7.1"
+    }
+}

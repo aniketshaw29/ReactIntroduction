@@ -1,0 +1,14 @@
+API - Application programming interface
+
+
+JavaScript Object Notation (JSON) 
+
+
+REST stands for representational state transfer - in this server expose multiple end points
+The servers dictates what data field will be sent and in what format
+
+GraphQL - server expose only one endpoint which must be accessed with graphQL language
+It only sends data that you ask for 
+the clients specifies what data field will be retrived from the schema which is defined on the server
+Created by Facebook
+

@@ -1,0 +1,9 @@
+npm install --save-dev --save-exact prettier
+
+echo {}> .prettierrc.json
+
+
+
+----------------
+
+to run prettier file for formatting the code: prettier --write .

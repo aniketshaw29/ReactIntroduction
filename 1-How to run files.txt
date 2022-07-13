@@ -1,0 +1,11 @@
+Run a js/mjs file:
+
+node filename.js
+
+------------------------------
+
+running script that is inside package.json:
+
+npm run scriptname
+
+-------------------------------

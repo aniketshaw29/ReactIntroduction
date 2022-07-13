@@ -1,0 +1,34 @@
+var - to delare variable
+
+var declarations are globally scoped or function/locally scoped.
+
+var variables can be re-declared and updated
+
+var which is initialized as undefined by default
+can be declared without being initialized
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+console.log() - to print something
+
+--------------------------------------------------------------------------------------------------------------------
+
+let - for variable declaration.
+
+let - block scoped
+
+let can be updated but not re-declared
+
+let keyword is not initialized by default
+can be declared without being initialized
+
+--------------------------------------------------------------------------------------------------------
+
+const - to declare constant values
+
+block scoped
+
+not initialized by default
+Every const declaration, therefore, must be initialized at the time of declaration.
+
+cannot be updated or re-declared
