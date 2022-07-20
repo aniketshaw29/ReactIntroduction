@@ -114,3 +114,21 @@ fetch('https://jsonplaceholder.typicode.com/todos/1') //this prints a promise
 
 */
 
+
+//async await is alternative syntax for promises .then
+//it's purpose is to make promises look more "synchronous" and readable
+//async await is only available inside a function
+
+/*
+    async function sendRequest(){
+        const response = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+        const json = respose.json()
+        console.log(json)
+    }
+    sendRequest()
+*/
+//two ways of writting a function.. just add async keyword infront
+//const sendRequest = async()=>{}
+//async to mark the function and would be able to use await
+//await make sure that line will be execute first then move to next lines
+//in async await, the try/catch block is used to handle errors (.catch() analogue):
