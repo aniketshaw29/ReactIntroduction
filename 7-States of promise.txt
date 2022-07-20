@@ -1,0 +1,11 @@
+promise is not a function
+
+//pending
+promise has not produced any value yet and
+
+
+//resolved
+promise has already produced a value and
+
+//rejected
+promise has thrown an error

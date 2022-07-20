@@ -8,11 +8,9 @@ const arr = [11,22,33,44]
 //currentValue
 //Array
 
-//Here 0 is the initial value of accumulator during the 1st iteration
-
 // arr.reduce(function(accumulator, curVal,){
 //     console.log(accumulator,curVal)
-// },0)
+// },0) //Here 0 is the initial value of accumulator during the 1st iteration
 
 
 const total = arr.reduce(function(accumulator, curVal,){
@@ -20,3 +18,21 @@ const total = arr.reduce(function(accumulator, curVal,){
 },0)
 
 console.log(total)
+
+
+
+//possible parameters while returning object
+//previousValue
+//currentValue
+//currentIndex
+//Array
+
+//we can make it return a object
+const objTotal = arr.reduce(function(accumulator, curVal, CurIndex,){
+    const mappedCurrentElement = {};
+    mappedCurrentElement[CurIndex] = curVal;
+    return Object.assign(accumulator, mappedCurrentElement);
+},{}) //{} for empty object
+
+
+console.log(objTotal)
